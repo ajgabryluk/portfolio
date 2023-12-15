@@ -1,7 +1,10 @@
 import React from 'react';
+import "../Styles/Home.css"
 
 export default function Home(){
     return(
-        <h1>HOME</h1>
+        <main>
+            <h1>HOME PAGE</h1>
+        </main>
     )
 }
