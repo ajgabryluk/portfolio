@@ -1,9 +1,17 @@
 footer{
-    height: 100px; 
     display: flex; 
-    background-color: #edf2f4;
-    align-items: center; 
-    justify-content: space-between;
+    flex-direction: column;
     padding-left: 10%; 
-    padding-right: 10%
+    padding-right: 10%;
+    color:#2B2D42;
+}
+button{
+    background-color: white;
+}
+.callToAction{
+    font-size: 1.5em;
+    font-weight:  500;
+}
+.buttonBox{
+    width: fit-content;
 }
