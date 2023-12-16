@@ -1,9 +1,10 @@
 import React from 'react';
+import "../Styles/Projects.css"
 
 export default function Projects(){
     return(
-        <div>
-            <p>we are projects</p>
+        <div class="main">
+            <div style={{width: "0"}}></div>
         </div>
     )
 }

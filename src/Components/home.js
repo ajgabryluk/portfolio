@@ -1,5 +1,6 @@
 import React from 'react';
 import WordCloud from './WordCloud';
+import Projects from './Projects';
 import "../Styles/Home.css"
 
 export default function Home(){
@@ -9,7 +10,7 @@ export default function Home(){
             <div style={{height: "400px", width: "550px"}}>
                 <WordCloud />
             </div>
-            
+            <Projects />
         </main>
     )
 }
