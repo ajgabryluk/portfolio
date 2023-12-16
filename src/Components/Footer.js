@@ -7,8 +7,10 @@ export default function Footer(){
     const [hovering, setHovering] = useState(0)
     return(
         <footer>
-            <p>Thanks for stopping by!</p>
-            <p class="callToAction">Please feel free to reach out to me via LinkedIn or Email.</p>
+            <div>
+                <p>Thanks for stopping by!</p>
+                <p class="callToAction">Please feel free to reach out to me via LinkedIn or Email.</p>
+            </div>
             <div class="buttonBox">
                 <a href="https://www.linkedin.com/in/aarongabryluk/" 
                     onMouseEnter={()=>{setHovering(1)}}
@@ -23,7 +25,10 @@ export default function Footer(){
                     <EmailIcon fontSize='large' sx={{color:"#D90429", opacity: hovering === 0 || hovering === 2 ? 1 : 0.5}}/>
                 </a>
             </div>
-            <p style={{opacity: 0.8}}>&#169; 2023 Aaron Gabryluk</p>
+            <div>
+                <p style={{opacity: 0.8}}>&#169;2023 Aaron Gabryluk</p>
+                <p style={{opacity: 0.8}}>Built using React and MUI</p>
+            </div>
         </footer>
     )
 }
