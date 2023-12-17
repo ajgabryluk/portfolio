@@ -1,5 +1,17 @@
 .main{
-    padding-left: 10%; 
-    padding-right: 10%;
+    padding: 2% 10% 2% 10%;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 24px;
+    width: 80%;
+    background-color: #edf2f4;
+}
+.projectContainer{
+    flex-basis: 45%; 
+}
+.projectImage{
+    width: 100%;
+    height: 400px;
+    background-color: green;
 }

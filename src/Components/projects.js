@@ -4,7 +4,30 @@ import "../Styles/Projects.css"
 export default function Projects(){
     return(
         <div class="main">
-            <div style={{width: "0"}}></div>
+            <div class="projectContainer">
+                <div class="projectImage"/>
+                <p>Classification</p>
+                <h2>Title</h2>
+                <p>Description</p>
+            </div>
+            <div class="projectContainer">
+                <div class="projectImage"/>
+                <p>Classification</p>
+                <h2>Title</h2>
+                <p>Description</p>
+            </div>
+            <div class="projectContainer">
+                <div class="projectImage"/>
+                <p>Classification</p>
+                <h2>Title</h2>
+                <p>Description</p>
+            </div>
+            <div class="projectContainer">
+                <div class="projectImage"/>
+                <p>Classification</p>
+                <h2>Title</h2>
+                <p>Description</p>
+            </div>
         </div>
     )
 }
