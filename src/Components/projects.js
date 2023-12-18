@@ -13,21 +13,15 @@ export default function Projects(){
             />
             <ProjectPreview 
                 source={"/TownWithOmni.mp4"} 
-                classification={"02 - VR / UX Research / In Progress"} 
+                classification={"02 - VR / UX Research / Unity"} 
                 title={"VR Omni Treadmill Experiment"} 
                 description={"Assisted the Georgia Tech VR Landia lab with implementing the Virtuix Omni-Treadmill into their Unity project. Continuing to assist with navigation scripting."}
             />
             <ProjectPreview 
-                source={"/FanduelProject.mp4"} 
-                classification={"Classification"} 
-                title={"title"} 
-                description={"description"}
-            />
-            <ProjectPreview 
-                source={"/FanduelProject.mp4"} 
-                classification={"Classification"} 
-                title={"title"} 
-                description={"description"}
+                source={"/UnrealRollerCoaster.mp4"} 
+                classification={"03 - VR / UX Research / Unreal Engine 5 / EEG"} 
+                title={"Haptic Feedback Presence Experiment"} 
+                description={"Studied the effects of haptic feedback on presence utilizing B-Haptics vest to simulate movement and EEG to measure their level of presence."}
             />
         </div>
     )
