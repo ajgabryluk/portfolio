@@ -31,6 +31,27 @@ export default function About(){
                     <p>Machine Learning</p>
                 </div>  
             </div>
+            <div class="experienceSection">
+                <div style={{flexBasis: "500px"}}>
+                    <p style={{fontSize: "2em"}}>Experience</p>
+                </div>
+                <div style={{flexBasis: "calc(80% - 500px)", paddingTop: "1em"}}>
+                    <p><a href="https://www.cc.gatech.edu/">Georgia Institute of Technology</a> - Masters in Human Computer Interaction - Aug 2023 to Present</p>
+                    <p><a href="https://www.cc.gatech.edu/">Georgia Institute of Technology</a> - VRLandia Research Asssistant - Aug 2023 to Present</p>
+                    <p><a href="https://www.mfa.net/">Medical Facilities of America</a> - Full Stack Developer - Jan 2023 to Dec 2023</p>
+                    <p><a href="https://www.roanoke.edu/">Roanoke College</a> - Lead Researcher - May 2022 to Sep 2022</p>
+                    <p><a href="https://www.roanoke.edu/">Roanoke College</a> - IT Technician - Jan 2020 to Dec 2022</p>
+                    <p><a href="https://www.roanoke.edu/">Roanoke College</a> - Bachelors Degree in Computer Science - Aug 2019 to Dec 2022</p>
+                </div>  
+            </div>
+            <div class="darkSection listSection">
+                <div style={{flexBasis: "500px"}}>
+                    <p style={{fontSize: "2em"}}>A little more about me</p>
+                </div>
+                <div style={{flexBasis: "calc(100% - 500px)", fontSize: "1.2em", paddingTop: "1.2em"}}>
+                    <p>Hello World</p>
+                </div>  
+            </div>
         </main>
     )
 }
