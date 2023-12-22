@@ -6,6 +6,7 @@
     row-gap: 24px;
     width: 80%;
     background-color: #edf2f4;
+    color: #2B2D42;
 }
 .projectContainer{
     flex-basis: 45%; 

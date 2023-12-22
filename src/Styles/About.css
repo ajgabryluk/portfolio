@@ -1,3 +1,6 @@
+main{
+    color: #2B2D42;
+}
 .mainSection{
     flex-basis: 100%;
     display: flex;
@@ -34,5 +37,45 @@
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    
+}
+
+a{
+    color: #D90429;
+}
+.coolHoverEffect:hover{
+    color: #D90429;
+    transition: 500ms;
+}
+.animate-charcter
+{
+    background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+    );
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 4s linear infinite;
+}
+@keyframes textclip {
+    to {
+        background-position: 200% center;
+    }
+}
+.floating {  
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+ 
+@keyframes floating {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 15px); }
+    100%   { transform: translate(0, -0px); }    
 }

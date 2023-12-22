@@ -6,13 +6,13 @@ export default function About(){
         <main>
             <div class="mainSection">
                 <div id="profilePicture">
-                    <img src="/pfp.jpg" alt="profile_picture" width="75%" height="75%" style={{borderRadius: "50%", display: "block", boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px"}} />
+                    <img src="/pfp.jpg"  class="floating" alt="profile_picture" width="75%" height="75%" style={{borderRadius: "50%", display: "block", boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px"}} />
                 </div>
                 <div id="introText">
                     <p style={{fontSize: "2em"}}>Aaron Gabryluk is an inspired developer and researcher with a goal of improving and understanding the user experience.</p>
                     <p style={{fontSize: "1em"}}>I am a seasoned user experience researcher with professional full stack development experience. Team player and passionate about VR, BCI, and AI research.</p>
                     <p style={{fontSize: "1em"}}>Skilled at solving multi-layered problems with logical problem solving skills and and quick thinking. Picks up on things quickly, and is always willing to put in the extra effort to understand the problem space.</p>
-                    <p style={{fontSize: "1.2em"}}>Currently pursuing my Masters Degree in Human Computer Interaction from Georgia Institute of Technology, and <b>I am actively looking for an internship for the summer of 2024.</b></p>
+                    <p style={{fontSize: "1.2em"}}>Currently pursuing my Masters Degree in Human Computer Interaction from Georgia Institute of Technology, and <span style={{fontWeight: "bold", color: "#D90429"}}>I am actively looking for an internship for the summer of 2024.</span></p>
                 </div>
             </div>
             <div class="darkSection listSection">
@@ -20,15 +20,15 @@ export default function About(){
                     <p style={{fontSize: "2em"}}>Research Interests</p>
                 </div>
                 <div style={{display: "grid", gridTemplateColumns: "auto auto", flexBasis: "calc(100% - 500px)", paddingTop: "1.2em", fontSize: "1.2em"}}>
-                    <p>Virtual Reality</p>
-                    <p>Brain Computer Interaction</p>
-                    <p>Human Computer Interaction</p>
-                    <p>UX Research</p>
-                    <p>Artificial Intelligence</p>
-                    <p>Human Perception</p>
-                    <p>Haptic Feedback</p>
-                    <p>Augmented Reality</p>
-                    <p>Machine Learning</p>
+                    <p class="coolHoverEffect">Virtual Reality</p>
+                    <p class="coolHoverEffect">Brain Computer Interaction</p>
+                    <p class="coolHoverEffect">Human Computer Interaction</p>
+                    <p class="coolHoverEffect">UX Research</p>
+                    <p class="coolHoverEffect">Artificial Intelligence</p>
+                    <p class="coolHoverEffect">Human Perception</p>
+                    <p class="coolHoverEffect">Haptic Feedback</p>
+                    <p class="coolHoverEffect">Augmented Reality</p>
+                    <p class="coolHoverEffect">Machine Learning</p>
                 </div>  
             </div>
             <div class="experienceSection">
@@ -49,7 +49,14 @@ export default function About(){
                     <p style={{fontSize: "2em"}}>A little more about me</p>
                 </div>
                 <div style={{flexBasis: "calc(100% - 500px)", fontSize: "1.2em", paddingTop: "1.2em"}}>
-                    <p>Hello World</p>
+                    <p>I am...</p>
+                    <p style={{fontSize: "0.9em"}}>from Lititz, Pennsylvania</p>
+                    <p style={{fontSize: "0.9em"}}>an <a href="https://www.16personalities.com/enfj-personality">ENFJ</a> (Extraverted | Intuitive | Feeling | Judging)</p>
+                    <p style={{fontSize: "0.9em"}}>an avid fan of videogames</p>
+                    <p style={{fontSize: "0.9em"}}>a proud cat dad and animal lover</p>
+                    <br/>
+                    <p>I value...</p>
+                    <p class="animate-charcter" style={{fontSize: "0.9em"}}>freedom, exploration, change, ambition, and community</p>
                 </div>  
             </div>
         </main>
