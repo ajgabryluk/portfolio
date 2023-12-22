@@ -8,6 +8,9 @@ import Footer from './Components/Footer';
 function App() {
   return (
     <div>
+      <head>
+        <title>Aaron Gabryluk</title>
+      </head>
       <Header/>
       <Routes>
         <Route path="/" element={<Home />}/>
