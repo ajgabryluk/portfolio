@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import EmailIcon from '@mui/icons-material/Email';
+import GitHubIcon from '@mui/icons-material/GitHub';
 import "../Styles/Footer.css"
 
 export default function Footer(){
@@ -23,6 +24,12 @@ export default function Footer(){
                     onMouseLeave={()=>{setHovering(0)}}
                 >
                     <EmailIcon fontSize='large' sx={{color:"#D90429", opacity: hovering === 0 || hovering === 2 ? 1 : 0.5}}/>
+                </a>
+                <a href="https://github.com/ajgabryluk"
+                    onMouseEnter={()=>{setHovering(3)}}
+                    onMouseLeave={()=>{setHovering(0)}}
+                >
+                    <GitHubIcon fontSize='large' sx={{color:"#D90429", opacity: hovering === 0 || hovering === 3 ? 1 : 0.5}}/>
                 </a>
             </div>
             <div>
