@@ -36,12 +36,13 @@ export default function About(){
                     <p style={{fontSize: "2em"}}>Experience</p>
                 </div>
                 <div style={{flexBasis: "calc(80% - 500px)", paddingTop: "1em"}}>
-                    <p><a href="https://www.cc.gatech.edu/">Georgia Institute of Technology</a> - Masters in Human Computer Interaction - Aug 2023 to Present</p>
-                    <p><a href="https://www.cc.gatech.edu/">Georgia Institute of Technology</a> - VRLandia Research Asssistant - Aug 2023 to Present</p>
-                    <p><a href="https://www.mfa.net/">Medical Facilities of America</a> - Full Stack Developer - Jan 2023 to Dec 2023</p>
-                    <p><a href="https://www.roanoke.edu/">Roanoke College</a> - Lead Researcher - May 2022 to Sep 2022</p>
-                    <p><a href="https://www.roanoke.edu/">Roanoke College</a> - IT Technician - Jan 2020 to Dec 2022</p>
-                    <p><a href="https://www.roanoke.edu/">Roanoke College</a> - Bachelors Degree in Computer Science - Aug 2019 to Dec 2022</p>
+                    <p><a href="https://www.indestrl.com/" target="blank">Indestrl</a> - Lead Mixed Reality Developer - May 2024 - Aug 2024</p>
+                    <p><a href="https://mshci.gatech.edu/" target="blank">Georgia Institute of Technology</a> - Masters in Human Computer Interaction - Aug 2023 to Present</p>
+                    <p><a href="https://vrlandia.gatech.edu/" target="blank">Georgia Institute of Technology</a> - VRLandia Research Asssistant - Aug 2023 to Present</p>
+                    <p><a href="https://www.mfa.net/" target="blank">Medical Facilities of America</a> - Full Stack Developer - Jan 2023 to Dec 2023</p>
+                    <p><a href="https://www.roanoke.edu/" target="blank">Roanoke College</a> - Lead Researcher - May 2022 to Sep 2022</p>
+                    <p><a href="https://www.roanoke.edu/" target="blank">Roanoke College</a> - IT Technician - Jan 2020 to Dec 2022</p>
+                    <p><a href="https://www.roanoke.edu/" target="blank">Roanoke College</a> - Bachelors Degree in Computer Science - Aug 2019 to Dec 2022</p>
                 </div>  
             </div>
             <div class="darkSection listSection">
