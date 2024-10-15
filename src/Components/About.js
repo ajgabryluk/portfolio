@@ -9,10 +9,10 @@ export default function About(){
                     <img src="/pfp.jpg"  class="floating" alt="profile_picture" width="75%" height="75%" style={{borderRadius: "50%", display: "block", boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px"}} />
                 </div>
                 <div id="introText">
-                    <p style={{fontSize: "2em"}}>Aaron Gabryluk is an inspired developer and researcher with a goal of improving and understanding the user experience.</p>
-                    <p style={{fontSize: "1em"}}>I am a seasoned user experience researcher with professional full stack development experience. Team player and passionate about VR, BCI, and AI research.</p>
+                    <p style={{fontSize: "2em"}}>Aaron Gabryluk is an inspired developer and researcher who wants to improve the world with cutting edge technology.</p>
+                    <p style={{fontSize: "1em"}}>I am a seasoned user experience researcher with professional full stack development experience. Team player and passionate about MR, applied machine learning, and AI research.</p>
                     <p style={{fontSize: "1em"}}>Skilled at solving multi-layered problems with logical problem solving skills and and quick thinking. Picks up on things quickly, and is always willing to put in the extra effort to understand the problem space.</p>
-                    <p style={{fontSize: "1.2em"}}>Currently pursuing my Masters Degree in Human Computer Interaction from Georgia Institute of Technology, and <span style={{fontWeight: "bold", color: "#D90429"}}>I am actively looking for an internship for the summer of 2024.</span></p>
+                    <p style={{fontSize: "1.2em"}}>Currently pursuing my Masters Degree in Human Computer Interaction from Georgia Institute of Technology, and <span style={{fontWeight: "bold", color: "#D90429"}}>I am actively looking for full time employment starting Summer 2025.</span></p>
                 </div>
             </div>
             <div class="darkSection listSection">
@@ -28,7 +28,7 @@ export default function About(){
                     <p class="coolHoverEffect">Human Perception</p>
                     <p class="coolHoverEffect">Haptic Feedback</p>
                     <p class="coolHoverEffect">Augmented Reality</p>
-                    <p class="coolHoverEffect">Machine Learning</p>
+                    <p class="coolHoverEffect">Applied Machine Learning</p>
                 </div>  
             </div>
             <div class="experienceSection">
@@ -38,7 +38,7 @@ export default function About(){
                 <div style={{flexBasis: "calc(80% - 500px)", paddingTop: "1em"}}>
                     <p><a href="https://www.indestrl.com/" target="blank">Indestrl</a> - Lead Mixed Reality Developer - May 2024 - Aug 2024</p>
                     <p><a href="https://mshci.gatech.edu/" target="blank">Georgia Institute of Technology</a> - Masters in Human Computer Interaction - Aug 2023 to Present</p>
-                    <p><a href="https://vrlandia.gatech.edu/" target="blank">Georgia Institute of Technology</a> - VRLandia Research Asssistant - Aug 2023 to Present</p>
+                    <p><a href="https://vrlandia.gatech.edu/" target="blank">Georgia Institute of Technology</a> - VRLandia Graduate Research Asssistant - Aug 2023 to Present</p>
                     <p><a href="https://www.mfa.net/" target="blank">Medical Facilities of America</a> - Full Stack Developer - Jan 2023 to Dec 2023</p>
                     <p><a href="https://www.roanoke.edu/" target="blank">Roanoke College</a> - Lead Researcher - May 2022 to Sep 2022</p>
                     <p><a href="https://www.roanoke.edu/" target="blank">Roanoke College</a> - IT Technician - Jan 2020 to Dec 2022</p>
