@@ -53,7 +53,7 @@ export default function About(){
                     <p>I am...</p>
                     <p style={{fontSize: "0.9em"}}>from Lititz, Pennsylvania</p>
                     <p style={{fontSize: "0.9em"}}>an <a href="https://www.16personalities.com/enfj-personality">ENFJ</a> (Extraverted | Intuitive | Feeling | Judging)</p>
-                    <p style={{fontSize: "0.9em"}}>an avid fan of videogames</p>
+                    <p style={{fontSize: "0.9em"}}>an avid fan of videogames and D&D</p>
                     <p style={{fontSize: "0.9em"}}>a proud cat dad and animal lover</p>
                     <br/>
                     <p>I value...</p>

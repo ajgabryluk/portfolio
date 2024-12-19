@@ -1,15 +1,18 @@
 .main{
-    padding: 2% 10% 2% 10%;
+    padding: 2% 5% 2% 5%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    row-gap: 24px;
-    width: 80%;
+    row-gap: 64px;
+    width: 90%;
     background-color: #edf2f4;
     color: #2B2D42;
 }
 .projectContainer{
-    flex-basis: 45%; 
+    flex-basis: 45%;
+    padding: 1%;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    border-radius: 10px;
 }
 .projectImage{
     width: 100%;
