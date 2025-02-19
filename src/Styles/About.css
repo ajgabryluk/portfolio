@@ -29,6 +29,7 @@ main{
     padding-right: 20%;
 }
 .listSection{
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     padding-bottom: 24px;

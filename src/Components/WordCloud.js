@@ -37,7 +37,7 @@ function Cloud({ count = 4, radius = 22 }) {
         "VR",
         "XR",
         "Gamer",
-        "BCI",
+        "EdTech",
         "Python",
         "Machine Learning",
         "AI",

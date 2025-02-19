@@ -10,28 +10,12 @@ export default function About(){
                 </div>
                 <div id="introText">
                     <p style={{fontSize: "2em"}}>Aaron Gabryluk is an inspired developer and researcher who wants to improve the world with cutting edge technology.</p>
-                    <p style={{fontSize: "1em"}}>I am a seasoned user experience researcher with professional full stack development experience. Team player and passionate about MR, applied machine learning, and AI research.</p>
+                    <p style={{fontSize: "1em"}}>I am a seasoned user experience researcher with professional full stack development experience. Team player and passionate about UX, XR, educational technology, and game development.</p>
                     <p style={{fontSize: "1em"}}>Skilled at solving multi-layered problems with logical problem solving skills and and quick thinking. Picks up on things quickly, and is always willing to put in the extra effort to understand the problem space.</p>
                     <p style={{fontSize: "1.2em"}}>Currently pursuing my Masters Degree in Human Computer Interaction from Georgia Institute of Technology, and <span style={{fontWeight: "bold", color: "#D90429"}}>I am actively looking for full time employment starting Summer 2025.</span></p>
                 </div>
             </div>
-            <div class="darkSection listSection">
-                <div style={{flexBasis: "500px"}}>
-                    <p style={{fontSize: "2em"}}>Research Interests</p>
-                </div>
-                <div style={{display: "grid", gridTemplateColumns: "auto auto", flexBasis: "calc(100% - 500px)", paddingTop: "1.2em", fontSize: "1.2em"}}>
-                    <p class="coolHoverEffect">Virtual Reality</p>
-                    <p class="coolHoverEffect">Brain Computer Interaction</p>
-                    <p class="coolHoverEffect">Human Computer Interaction</p>
-                    <p class="coolHoverEffect">UX Research</p>
-                    <p class="coolHoverEffect">Artificial Intelligence</p>
-                    <p class="coolHoverEffect">Human Perception</p>
-                    <p class="coolHoverEffect">Haptic Feedback</p>
-                    <p class="coolHoverEffect">Augmented Reality</p>
-                    <p class="coolHoverEffect">Applied Machine Learning</p>
-                </div>  
-            </div>
-            <div class="experienceSection">
+            <div class="darkSection experienceSection">
                 <div style={{flexBasis: "500px"}}>
                     <p style={{fontSize: "2em"}}>Experience</p>
                 </div>
@@ -45,7 +29,34 @@ export default function About(){
                     <p><a href="https://www.roanoke.edu/" target="blank">Roanoke College</a> - Bachelors Degree in Computer Science - Aug 2019 to Dec 2022</p>
                 </div>  
             </div>
+            <div class="experienceSection">
+                <div style={{flexBasis: "500px"}}>
+                    <p style={{fontSize: "2em"}}>Publications</p>
+                </div>
+                <div style={{flexBasis: "calc(90% - 500px)", paddingTop: "1em"}}>
+                    <p>Sogani, R., <b>Gabryluk, A.</b>, Raja, V., Gupta, A., Starner, T (2025). <i>Game Mechanics for Sign Language Recognition-based Educational Apps. Intelligent User Interfaces</i> (ACCEPTED)</p>
+                    <p>Sogani, R., Gupta, A., <b>Gabryluk, A.</b>, Raja, V (2025). <i>PopSignAI: Integrating Sign Recognition into Gameplay to Teach Sign Language. CHI Student Game Competition</i> (IN REVIEW)</p>
+                    <p><b>Gabryluk, A.</b>, Sogani, R., Gupta, A., Raja, V., Starner, T (2025). <i>American Sign Language Games: Analysis on Recognition Performance and Game Mechanisms. MobileHCI</i> (IN REVIEW)</p>
+                    
+                </div>  
+            </div>
             <div class="darkSection listSection">
+                <div style={{flexBasis: "500px"}}>
+                    <p style={{fontSize: "2em"}}>Research Interests</p>
+                </div>
+                <div style={{display: "grid", gridTemplateColumns: "auto auto", flexBasis: "calc(100% - 500px)", paddingTop: "1.2em", fontSize: "1.2em"}}>
+                    <p class="coolHoverEffect">Virtual Reality</p>
+                    <p class="coolHoverEffect">ASL</p>
+                    <p class="coolHoverEffect">Human Computer Interaction</p>
+                    <p class="coolHoverEffect">UX Research</p>
+                    <p class="coolHoverEffect">Artificial Intelligence</p>
+                    <p class="coolHoverEffect">EdTech</p>
+                    <p class="coolHoverEffect">Haptic Feedback</p>
+                    <p class="coolHoverEffect">Augmented Reality</p>
+                    <p class="coolHoverEffect">Applied Machine Learning</p>
+                </div>  
+            </div>
+            <div class="listSection">
                 <div style={{flexBasis: "500px"}}>
                     <p style={{fontSize: "2em"}}>A little more about me</p>
                 </div>
