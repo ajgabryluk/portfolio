@@ -9,7 +9,7 @@ export default function Header(){
                 <p class={"subLinkContainer"}>
                     <Link to="/projects" class={"headerLink"}>Projects</Link>
                     <div class="linkBorder" />
-                    <Link to="https://drive.google.com/uc?export=download&id=1_s8VxgWDM3XCqEsmc5Qy8y5TW_jbc6oP" class={"headerLink"}>Resume</Link>
+                    <Link to="https://drive.google.com/uc?export=download&id=18AV_WgsOD6KZDPXF8zjsEH28U3X2Ue1H" class={"headerLink"}>Resume</Link>
                     <div class="linkBorder" />
                     <Link to="/about" class={"headerLink"}>About</Link>
                 </p>
