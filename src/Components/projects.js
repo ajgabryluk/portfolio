@@ -5,7 +5,7 @@ import { AnimatePresence } from "framer-motion";
 import "../Styles/Projects.css"
 
 const projects = [
-    { source: "/QuizletNewFeature.mp4", classification: ["UX Research", "EdTech", "UX Design"], title: "Quizlet Connection Feature", description: "Created a figma prototype showcasing a new feature that could be added to Quizlet in order to help students create mental connections to increase recall." },
+    { source: "/QuizletNewFeature.mp4", classification: ["UX Research", "EdTech", "UX Design"], title: "Quizlet Connection Feature", description: "Created a figma prototype showcasing a new feature that could be added to Quizlet in order to help students create mental connections to increase recall.", "more": true},
     { source: "/PopSignAI.mp4", classification: ["UX Research", "EdTech", "Game Development"], title: "PopSignAI", description: "Conducted UX research and development on the PopSignAI app in order to make it into a production ready experience, in collaboration with Thad Starner's Contextual Computing Group." },
     { source: "/SignBeats.mp4", classification: ["UX Research", "EdTech", "Game Development"], title: "SignBeats", description: "Developing a rhythm game in Unity that teaches American Sign Language through call and response." },
     { source: "/COD-Demo.mp4", classification: ["Game Development", "UX Design"], title: "Count Down of Death - Zombies", description: "Developed and designed a timed, PVE wave arena shooter where the player unlocks new guns and passive upgrades to fight zombies and other ghouls threatening the city." },  
@@ -43,12 +43,6 @@ export default function Projects(){
                     <p class={`projectSelectFilter ${filter === "EdTech" ? "activeFilter" : ""}`}>EdTech</p>
                 </div>
             </div>
-            {/* <select onChange={(e) => setFilter(e.target.value)} className="mb-4 p-2 border rounded">
-                <option value="All">All</option>
-                <option value="Web">Web</option>
-                <option value="Mobile">Mobile</option>
-                <option value="AI">AI</option>
-            </select> */}
                 <AnimatePresence>
                     {filteredProjects.map((project) => (
                         <ProjectPreview key={project.title} {...project} />

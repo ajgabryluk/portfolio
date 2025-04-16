@@ -1,7 +1,23 @@
 import React from 'react';
-import { motion } from "framer-motion";
+import { motion, AnimatePresence } from "framer-motion";
+import {useState, useEffect} from "react";
+import ProjectDetailsModal from './ProjectDetailsModal';
 
-export default function ProjectPreview({ source, classification, title, description }) {
+
+export default function ProjectPreview({ source, classification, title, description, more }) {
+    const [data, setData] = useState(null);
+    const [modalOpen, setModalOpen] = useState(false)
+
+    const close = () => setModalOpen(false)
+    const open = () => setModalOpen(true)
+
+    useEffect(() => {
+        fetch("./ProjectDescriptions.json")
+        .then((response) => response.json())
+        .then((jsonData) => setData(jsonData[title]))
+        .catch((error) => console.error("Error loading JSON:", error));
+    }, []);
+
     return (
         <motion.div 
             className="projectContainer"
@@ -20,6 +36,26 @@ export default function ProjectPreview({ source, classification, title, descript
             <p>{classification.join(" / ")}</p>
             <h2>{title}</h2>
             <p>{description}</p>
+            {more ? 
+                <>
+                    <button onClick={()=>{
+                            modalOpen ? close() : open()
+                        }} 
+                        class={"moreButton"}
+                    >
+                        See More
+                    </button>
+                    <AnimatePresence
+                        initial={false}
+                        exitBeforeEnter={true}
+                        onExitComplete={()=>null}
+                    >
+                        {modalOpen && <ProjectDetailsModal title={title} modalOpen={modalOpen} handleClose={close} details={data}/>}
+                    </AnimatePresence>
+                </>    
+                : 
+                <></>
+            }
         </motion.div>
     );
 }

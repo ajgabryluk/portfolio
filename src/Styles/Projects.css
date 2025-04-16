@@ -62,3 +62,75 @@
 .projectSelectFilter.activeFilter::after {
     transform: translate3d(0, 0, 0);
 }
+
+.moreButton{
+    color: #D90429;
+    padding: 10px;
+    font-size: 1em;
+    border: none;
+}
+.moreButton:hover{
+    background-color: #D90429;
+    color: white;
+    transition: 0.6s;
+    border: none;
+}
+.backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: #000000e1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.projectModal {
+    width: clamp(60%, 700px, 90%);
+    height: min(80%, 800px);
+    background-color: #edf2f4;
+    margin:auto;
+    padding: 2rem 2rem;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    white-space: pre-line;  
+    vertical-align: bottom;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.carousel {
+    width: 100%;
+    margin: 30px;
+}
+
+.carousel-item {
+    height: 400px; /* or whatever height you want */
+}
+  
+.carousel-item img {
+    height: 100%;
+    width: auto;
+    object-fit: contain; /* or 'cover' if you want to crop instead */
+    margin: 0 auto;
+    display: block;
+  }
+
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+.custom-caption {
+    background-color: rgba(0, 0, 0, 0.5); /* black with 50% opacity */
+    padding: 1rem;
+    border-radius: 0.5rem;
+    display: inline-block; /* shrink wrap the text */
+  }

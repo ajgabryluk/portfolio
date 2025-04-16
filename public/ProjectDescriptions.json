@@ -1,0 +1,14 @@
+{
+    "Quizlet Connection Feature":{
+        "description": "\nWe observed that Quizlet had a severe lack of tools to aid in the creation of mental connections, so we designed the new Connections feature. We started by creating a persona of our user, which we represented as a 20 year old college student who was struggling in her classes. \n\nFrom there, we observed our users interacting with Quizlet's base features and created an affinity diagram  materialize insights. From there, we took an iterative design approach and began conducting contextual inquiries with users toying with our prototypes. After 3 separate iterations, we finally concluded by scrutinizing our tool from a learning theory lense. To shore up some weaknesses, we added features that align with the creation of schema, self-assessment, and organizing knowledge.",
+        "video": "/QuizletNewFeature.mp4",
+        "images": ["/QuizletAffinityMap.png", "/QuizletStoryboard.png"],
+        "imageDescriptions": ["An affinity map of our original contextual inquiries.", "The storyboard we used to represent our user's experience with the Connections feature."]
+    },
+    "Charge Blade Tutorial":{
+        "description": "",
+        "video": "",
+        "images": [],
+        "imageDescriptions": []
+    }
+}
