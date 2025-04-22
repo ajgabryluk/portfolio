@@ -54,7 +54,13 @@ const ProjectDetailsModal = ({handleClose, title, details}) => {
                             </Carousel.Caption>
                         </Carousel.Item>
                     ))}
-                    </Carousel>
+                </Carousel>
+                <h3 style={{alignSelf: "flex-start"}}>Links</h3>
+                <div style={{alignSelf:"flex-start", display:"flex", flexDirection: "column"}}>
+                {details["links"].map((link, index) => (
+                    <a href={link} alt={details["linkTitles"][index]} target="_blank">{details["linkTitles"][index]}</a>
+                ))}
+                </div>
             </motion.div>
         </Backdrop>
     );

@@ -3,12 +3,16 @@
         "description": "\nWe observed that Quizlet had a severe lack of tools to aid in the creation of mental connections, so we designed the new Connections feature. We started by creating a persona of our user, which we represented as a 20 year old college student who was struggling in her classes. \n\nFrom there, we observed our users interacting with Quizlet's base features and created an affinity diagram  materialize insights. From there, we took an iterative design approach and began conducting contextual inquiries with users toying with our prototypes. After 3 separate iterations, we finally concluded by scrutinizing our tool from a learning theory lense. To shore up some weaknesses, we added features that align with the creation of schema, self-assessment, and organizing knowledge.",
         "video": "/QuizletNewFeature.mp4",
         "images": ["/QuizletAffinityMap.png", "/QuizletStoryboard.png"],
-        "imageDescriptions": ["An affinity map of our original contextual inquiries.", "The storyboard we used to represent our user's experience with the Connections feature."]
+        "imageDescriptions": ["An affinity map of our original contextual inquiries.", "The storyboard we used to represent our user's experience with the Connections feature."],
+        "links": ["https://www.figma.com/proto/eO9eu4OpHN4Zjcesj617YE/Quizlet-Revamp?node-id=118-784&p=f&t=XnMKoAibfYEVP5eM-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=118%3A784&show-proto-sidebar=1"],
+        "linkTitles": ["Prototype"]
     },
     "Charge Blade Tutorial":{
-        "description": "",
-        "video": "",
-        "images": [],
-        "imageDescriptions": []
+        "description": "\n For our final project in CS-6460 Education Technology, we were instructed to teach our user a skill of our choosing in any format we liked. I chose to teach users the Charge Blade from Monster Hunter: Wilds. I started by doing some ideation on what to teach, and then began doing some rudimentary sketches. \n\nFrom there, I began designing the first interactable prototype in Figma. Once that was complete, I conducted short user tests where I had users interact with the prototype and do a think-aloud. In general, users wanted better navigation, clearer explanations, more concise explanations, and help with review. To solve these issues in the final prototype, I added navigation in the site header, rewrote some of the text, converted some text to lists, and added a review button below the knowledge checks which takes you to the appropriate sections. \n\n",
+        "video": "/EdTechFinalProject.mp4",
+        "images": ["/EdTechPrototype.png", "/EdTechSketches.jpg"],
+        "imageDescriptions": ["Figma design file for the prototype.", "Initial sketches for the site."],
+        "links": ["https://youtu.be/BfyI-mfXHUY", "https://youtu.be/E1xUEBbgIdA", "https://youtu.be/R7HEk1VcZ4k", "https://www.figma.com/proto/qU9ZgcyMZXjgKhEE9jF6n5/ChargeBlade---EdTech-Final-Project?node-id=1-3&p=f&t=Z3GlJ5ROjofqNc4V-1&scaling=contain&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A3"],
+        "linkTitles": ["User Test 1", "User Test 2", "User Test 3", "Prototype"]
     }
 }
